@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Main css -->
+    <link rel="stylesheet" href="style\main.css" />
+    <link rel="stylesheet" href="style\css\bootstrap.css" />
+    <title>Document</title>
+  </head>
+  <body>
+   
+      <div class="container   justify-content-evenly  position-relative row row-cols-2 ">
+      <div class="col">
+        <div class="bg-white shadow rounded  flex-column">jk</div>
+      </div>
+      <div class="col">
+        <div class="bg-white shadow rounded p-3 input-group flex-column">
+          <h1 class="fw-bold text-secondary">Revenue</h1>
+          <p class="fs-0 fw-bold p-0 my-0 text-secondary">
+            What do you want to call it ?
+          </p>
+          <input
+            type="text"
+            class="form-control w-100 my-2 rounded"
+            placeholder="Please enter your name"
+            style="padding: 10px;"
+          />
+          <hr>
+          <!-- segment -->
+          <div class="segmentControl  col-lg-6 col-sm-12" >
+            <ul
+              class="fw-bold nav nav-pills nav-fill gap-2 p-2 small bg-white rounded-3 shadow"
+              id="pillNav2"
+              role="tablist"
+              style=" --bs-nav-link-color: #637381; d --bs-nav-pills-link-active-color: #fff; --bs-nav-pills-link-active-bg: #4285F4;"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active rounded-2"
+                  id="home-tab2"
+                  data-bs-toggle="tab"
+                  type="button"
+                  role="tab"
+                  aria-selected="true"
+                
+                >
+                  Home
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link rounded-2"
+                  id="profile-tab2"
+                  data-bs-toggle="tab"
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                >
+                  Profile
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link rounded-2"
+                  id="contact-tab2"
+                  data-bs-toggle="tab"
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                >
+                  Contact
+                </button>
+              </li>
+              
+            </ul>
+          </div>   
+                                    <!-- Cards -->
+          <div class="row row-cols-1 row-cols-lg-6 justify-content-start p-2 g-2">
+  
+                                    <!-- card-1 -->
+              <div class="card position-relative   shadow col rounded d-flex justify-content-start p-2"  >
+                <label class="radio-inline ">
+                  <div class="hstack p-1">
+                    <img src="img\1.png" alt="Radio Button Image" >
+                      <div class="vstack m-1">
+                        <p class="h5">Unit Sales</p>
+                        <p>Best for products that are sold in individual units quantities.</p>
+                      </div>
+                  </div>
+                  <input type="radio" name="optionsRadios" id="option1" value="option1" class="position-absolute top-0 end-0 m-2"> 
+                </label>
+              </div>
+              <!-- card-2 -->
+              <div class="card position-relative  shadow col rounded d-flex justify-content-start p-2 ">
+                <label class="radio-inline ">
+                  <div class="hstack p-1">
+                    <img src="img\4.png" alt="Radio Button Image" >
+                      <div class="vstack m-1">
+                        <p class="h5">Billable hours</p>
+                        <p>Best for services that are priced on a per-hour basis.</p>
+                      </div>
+                  </div>
+                  <input type="radio" name="optionsRadios" id="option1" value="option1" class="position-absolute top-0 end-0 m-2"> 
+                </label>
+              </div>
+              <!-- card-3 -->
+              <div class="card position-relative  shadow col rounded d-flex justify-content-start p-2 ">
+                <label class="radio-inline ">
+                  <div class="hstack p-1">
+                    <img src="img\2.png" alt="Radio Button Image" >
+                      <div class="vstack m-1">
+                        <p class="h5">Recurring charges</p>
+                        <p>Best for subscriptions, memberships, rentals, web apps, or other offerings with monthly or periodic charges.</p>
+                      </div>
+                  </div>
+                  <input type="radio" name="optionsRadios" id="option1" value="option1" class="position-absolute top-0 end-0 m-2"> 
+                </label>
+              </div>     
+              <!-- card-4 -->
+              <div class="card position-relative  shadow col rounded d-flex justify-content-start p-2 ">
+                <label class="radio-inline ">
+                  <div class="hstack p-1">
+                    <img src="img\5.png" alt="Radio Button Image" >
+                      <div class="vstack m-1">
+                        <p class="h5">Revenue only</p>
+                        <p> If none of the models above are applicable, or you already have a detailed forecast in Excel or elsewhere, choose this option to just enter overall revenue values without any details.</p>
+                      </div>
+                  </div>
+                  <input type="radio" name="optionsRadios" id="option1" value="option1" class="position-absolute top-0 end-0 m-2"> 
+                </label>
+              </div>
+              <!-- card-5 -->
+              <div class="card position-relative  shadow col rounded d-flex justify-content-start p-2 "
+              >
+                <label class="radio-inline ">
+                  <div class="hstack p-1">
+                    <img src="img\3.png" alt="Radio Button Image" >
+                      <div class="vstack m-1">
+                        <p class="h5">Commission Revenue</p>
+                        <p> Commission revenue is the primary revenue account of businesses that primarily make money from making sales or closing deals for third parties. Examples include real estate brokers, stockbrokers, insurance agencies, travel agencies, and the like .</p>
+                      </div>
+                  </div>
+                  <input type="radio" name="optionsRadios" id="option1" value="option1" class="position-absolute top-0 end-0 m-2"> 
+                </label>
+              </div>     
+  
+  
+            </div>
+             <hr>  
+            <!-- <button class="  btn btn-primary btn-lg   rounded fw-bold              " >
+              Next >> -->
+            <!-- </button> -->
+            <div class="d-flex justify-content-end ">
+            <button class="custom-btn btn-4 rounded "><span>Next >></span>
+            </button>
+          </div>
+      </div>
+      
+      </div>
+       
+
+    </div>
+    
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
